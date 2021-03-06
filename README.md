@@ -15,7 +15,7 @@ It's so nice to write what you have in mind and not to be limited by frameworks!
 
 
 ## :camera_flash: Screenshots
-# Video is mush better. Check it out!
+# Video is much better. Check it out!
 
 <img src="/results/screenshot_1.png" width="260">&emsp;<img src="/results/screenshot_2.png" width="260">
 
