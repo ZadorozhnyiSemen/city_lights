@@ -6,7 +6,7 @@
 
 
 ## :scroll: Description
-Bored by animating circles? Let's animate whole city!
+Bored by animated circles? Let's animate whole city!
 
 
 ## :bulb: Motivation and Context
