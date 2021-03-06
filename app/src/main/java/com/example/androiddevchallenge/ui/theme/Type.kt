@@ -17,16 +17,37 @@ package com.example.androiddevchallenge.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
+import com.example.androiddevchallenge.R
 
 // Set of Material typography styles to start with
+
+private val Roboto = FontFamily(
+    Font(R.font.roboto_bold, FontWeight.Bold),
+    Font(R.font.roboto, FontWeight.W400)
+)
+
 val typography = Typography(
-    body1 = TextStyle(
-        fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.Normal,
-        fontSize = 16.sp
+    h3 = TextStyle(
+        fontFamily = Roboto,
+        fontSize = 56.sp,
+        fontWeight = FontWeight.Bold,
+        lineHeight = 47.sp
+    ),
+    h4 = TextStyle(
+        fontFamily = Roboto,
+        fontSize = 20.sp,
+        fontWeight = FontWeight.W400,
+        lineHeight = 23.sp
+    ),
+    subtitle1 = TextStyle(
+        fontFamily = Roboto,
+        fontSize = 18.sp,
+        lineHeight = 21.sp,
+        fontWeight = FontWeight.W300
     )
         /* Other default text styles to override
     button = TextStyle(
