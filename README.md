@@ -10,7 +10,7 @@ Bored by animated circles? Let's animate whole city!
 
 
 ## :bulb: Motivation and Context
-I had great fun working with animations API. What I thought would break everything actually did work.
+I had great fun working with animations API. What I thought would break everything actually worked.
 It's so nice to write what you have in mind and not to be limited by frameworks!
 
 
